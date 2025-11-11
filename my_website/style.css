@@ -1,0 +1,33 @@
+:root {
+    --color-light-bg: #EAE8FF; 
+    --color-card-bg: #d8d5db; 
+    --color-subtle-text: #ADACB5; 
+    --color-primary-dark: #2D3142; 
+    --color-accent: #B0D7FF; 
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: var(--color-light-bg);
+    color: var(--color-primary-dark);
+}
+
+.container-padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+@media (min-width: 640px) {
+    .container-padding {
+        padding-left: 4rem; 
+        padding-right: 4rem;
+    }
+}
+
+.nav-link:hover {
+    color: var(--color-accent) !important;
+}
+
+.secondary-btn:hover {
+    background-color: var(--color-accent) !important;
+    color: var(--color-primary-dark) !important; 
+}

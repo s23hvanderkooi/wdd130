@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harrison's website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="sticky top-0 z-10" style="background-color: var(--color-primary-dark);">
+        <div class="container-padding mx-auto flex justify-between items-center py-4">
+            <img src="logo.png" alt="logo" class="h-8 w-8"/>> 
+        </div>
+    </nav>
+
+    <main>
+        <section class="py-16 md:py-24 shadow-md" style="background-color: var(--color-light-bg);">
+            <div class="container-padding mx-auto md:flex items-center gap-12">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-6xl font-extrabold leading-tight" style="color: var(--color-primary-dark);">
+                        Harrison's profolio
+                    </h1>
+                    <h2 class="text-xl md:text-2xl font-medium mt-2" style="color: var(--color-accent);">
+                        About me
+                    </h2>
+                    <h3></h3>
+                    <p>Harrison is a student at BYU-I and is learning about web design and programming. He's okay at it but is getting better</p>
+                    </p>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="w-full max-w-lg h-64 md:h-96 rounded-xl shadow-xl flex items-center justify-center border" style="background-color: var(--color-card-bg); border-color: var(--color-subtle-text); color: var(--color-subtle-text);">
+                        <img src="me.jpg" alt="Me" height="150.px" width="150.px"/>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="features" class="py-16 container-padding mx-auto" style="background-color: var(--color-card-bg);">
+            <div class="text-center mb-12">
+                
+                <h2 class="text-3xl font-bold mt-2" style="color: var(--color-primary-dark);">List of Projects</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300" style="background-color: var(--color-light-bg);">
+                    <div class="w-16 h-16 rounded-full mx-auto flex items-center justify-center mb-4" style="background-color: var(--color-accent); color: var(--color-primary-dark);">
+                        <span class="text-3xl font-bold">1</span>
+                    </div>
+                    <h4 class="text-xl font-semibold" style="color: var(--color-primary-dark);"></h4>
+                    <li><a href="ice.html" target="_blank" class="hover:text-white transition duration-150">Fav devo</a></li>
+                </div>
+                <div class="p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300" style="background-color: var(--color-light-bg);">
+                    <div class="w-16 h-16 rounded-full mx-auto flex items-center justify-center mb-4" style="background-color: var(--color-accent); color: var(--color-primary-dark);">
+                        <span class="text-3xl font-bold">2</span>
+                    </div>
+                    <li><a href="ice\grid_flags\flags.html" target="_blank" class="hover:text-white transition duration-150">Grid flags</a></li>
+                </div>
+                <div class="p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300" style="background-color: var(--color-light-bg);">
+                    <div class="w-16 h-16 rounded-full mx-auto flex items-center justify-center mb-4" style="background-color: var(--color-accent); color: var(--color-primary-dark);">
+                        <span class="text-3xl font-bold">3</span>
+                    </div>
+                    <li><a href="ice\halloween\index.html" target="_blank" class="hover:text-white transition duration-150">Halloween</a></li>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="py-12" style="background-color: var(--color-primary-dark);">
+        <div class="container-padding mx-auto">
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-8">
+                <div class="col-span-2 md:col-span-2">
+                    <div class="flex items-center space-x-2 mb-4">
+                         <img src="logo.png" alt="logo" class="h-8 w-8"/>>
+                    </div>
+                </div>
+
+                <div>
+                    
+                    <ul class="space-y-2 text-sm" style="color: var(--color-subtle-text);">
+                        <li><a href="me.jpg" target="_blank" class="hover:text-white transition duration-150">Random photo of me</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-8 pt-6 text-center text-sm" style="border-top: 1px solid var(--color-subtle-text); color: var(--color-subtle-text);">
+                &copy; 2025 Harrison VanderKooi. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+body { 
+    background-color: gray;
+    margin: 0px;
+}
+#content{
+    max-width: 1600px;
+    background-color: blue;
+}
+header {
+background-color: white;
+height: 50px;
+text-align: center;
+}
+
+header nav a {
+    text-decoration: none;
+    
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    border: 1px solid white;
+    display: inline-block;
+}
+
+ul {
+    display: inline-block;
+}
